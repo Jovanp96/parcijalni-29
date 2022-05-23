@@ -2,12 +2,8 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-}
-
-.background_image {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+  background-image: url('../Assets/background_raw.jpg');
+  background-size: cover;
 }
 
 .header-nav {
@@ -56,3 +52,4 @@
   size: fit-content;
   color: #e9eec9	;
 }
+

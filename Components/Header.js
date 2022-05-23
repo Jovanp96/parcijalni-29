@@ -1,11 +1,9 @@
 import './Header.css'
-import backgroundRaw from '../Assets/background_raw.jpg'
 import logo from '../Assets/logo_favicon.png'
 
 const Header =()=> {
   return (
     <div className='header-main'>
-      <img className='background_image' src={backgroundRaw}/>
         <div className='header-nav'>
           <div className='header-nav_items'>
             <img src={logo}/>
