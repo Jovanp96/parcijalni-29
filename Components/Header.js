@@ -19,8 +19,8 @@ const Header =()=> {
           <h1>SVEŽA ORGANSKA </h1>
           <h1>GOVEDINA SA</h1>
           <h1>NAŠE FARME</h1>
-          <h1>PRAVO NA VAŠ</h1>
-          <h1>PRAG.</h1>
+          <h1>PRAVO NA <span style={{color: '#913535'}}>VAŠ</span></h1>
+          <h1><span style={{color: '#913535'}}>PRAG</span>.</h1>
         </div>
     </div>
   )

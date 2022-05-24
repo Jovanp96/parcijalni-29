@@ -19,11 +19,11 @@
 
 .header-nav_items {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 60%;
   height: inherit;
-  margin-right: 10em;
+  margin-right: 15em;
   z-index: 1;
 }
 
@@ -45,11 +45,21 @@
 .header-nav img {
   margin: 0;
   height: 80%;
+  margin-right: 0.5em;
 }
 
 .header-nav h3 {
-  margin: 0;
-  size: fit-content;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   color: #e9eec9	;
+  height: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.header-nav h3:hover {
+  background-color: #913535;
 }
 
