@@ -6,6 +6,7 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+  background-color: #e9eec9;
 }
 
 .nase_meso-item img {
@@ -25,8 +26,23 @@
   justify-content:center;
   flex-direction: row;
   column-gap: 10px;
+  width: 80%;
 }
 
 .heart {
   order: 1;
 }
+
+.nase_meso-item-text h3 {
+  margin:0;
+  margin-bottom: 20px;
+}
+
+.nase_meso-item-text {
+  text-align: right;
+}
+
+.left-text {
+  text-align: left;
+}
+
